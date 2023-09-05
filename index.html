@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    
+</head>
+<body>
+ <main class="flex flex-col justify-center items-center pt-40">
+    <div class="">
+        <h1 class="font-bold  text-xl">Counter</h1>
+    </div>
+    <div>
+        <span id="number" class="font-bold text-6xl">00</span>
+    </div>
+    <div>
+        <button class="font-semibold mx-3 border-2 border-solid border-black px-5 py-2 rounded-lg hover:bg-black hover:text-white duration-500 " id="increment">Increment</button>
+        <button class="font-semibold mx-3 border-2 border-solid border-black px-5 py-2 rounded-lg hover:bg-black hover:text-white duration-500 " id="reset">Reset</button>
+        <button class="font-semibold mx-3 border-2 border-solid border-black px-5 py-2 rounded-lg hover:bg-black hover:text-white duration-500 " id="decrement">Decrement</button>
+    </div>
+ </main>
+</body>
+<script src="count.js"></script>
+</html>
